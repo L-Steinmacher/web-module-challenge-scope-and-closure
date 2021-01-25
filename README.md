@@ -79,7 +79,7 @@ the first and second roll are seperate rolls with two different values.  They wi
 
 c. What is the lexical scope of `newRoll`? 
 
-rew roll is inside of the annonimous function inside of personalDice. 
+rewRoll is inside of the annonimous function inside of personalDice. 
 
 ### Task 3 - Stretch Goals
 
