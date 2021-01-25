@@ -43,7 +43,13 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+
+closure is when a function reaches outside of itself to grab a value.  The value may be a variable or another function(which in essence is just a value)
+
 2. Study the following code, then answer the questions below.
+
+
+
 
 ```js
 function personalDice(name){
@@ -64,9 +70,16 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+
+When the annonomous function with the console.log is grabbing the name argument dan
+
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+
+the first and second roll are seperate rolls with two different values.  They will always be randome and have one of six values 0-5.  
+
 c. What is the lexical scope of `newRoll`? 
 
+rew roll is inside of the annonimous function inside of personalDice. 
 
 ### Task 3 - Stretch Goals
 
